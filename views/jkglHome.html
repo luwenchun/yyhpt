@@ -1,0 +1,180 @@
+<div class="panel-body" style="font-size: 13px;">
+	<form id="defaultForm2" method="post" class="form-horizontal"
+	style="font-size: 13px;">
+
+		<!-- /.row -->
+		<div class="row">
+			<div class="col-lg-4 col-md-4">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-xs-3">
+								<img src="health/pages/img/home-qyrq.png"/>
+							</div>
+							<div class="col-xs-9 text-right">
+								<div id = "qyrqNumDiv" style="font-size: 30px;">
+									0
+								</div>
+								<div id = "qyrqItemDiv" style="font-size: 20px;">
+									纳入健康管理
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#" id="jkglQuery">
+					<div class="home-panel-footer">
+						<span class="pull-left">详情</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div> </a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<div class="panel panel-red">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-xs-3">
+								<img src="health/pages/img/home-dpgrq.png" />
+							</div>
+							<div class="col-xs-9 text-right">
+								<div id = "dpgrqNumDiv" style="font-size: 30px;">
+									0
+								</div>
+								<div id = "dpgrqItemDiv" style="font-size: 20px;">
+									已评估未管理
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#" id="ypgwglQuery">
+					<div class="home-panel-footer">
+						<span class="pull-left">详情</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div> </a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<div class="panel panel-green">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-xs-3">
+								<img src="health/pages/img/home-ypgrq.png" />
+							</div>
+							<div class="col-xs-9 text-right">
+								<div id = "ypgrqNumDiv" style="font-size: 30px;">
+									0
+								</div>
+								<div id = "ypgrqItemDiv" style="font-size: 20px;">
+									待评估
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#" id="dpgrqQuery">
+					<div class="home-panel-footer">
+						<span class="pull-left">详情</span>
+						<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+						<div class="clearfix"></div>
+					</div> </a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<h3 id="home-item" class="page-header"><img src="health/pages/img/home-title-icon.png" /> 纳入健康管理 人群列表</h3>
+			</div>
+		</div>
+
+		<br/>
+		<ul class="nav nav-list">
+			<li class="divider"></li>
+		</ul>
+		<div class="form-group">
+				<label class="col-md-1 control-label" >姓名:</label>
+				<div class="col-md-2">
+					<input type="text" class="form-control input-sm" id="xm" placeholder="" maxlength="15">
+				</div>
+
+				<label class="col-md-1 control-label" >身份证号：</label>
+				<div class="col-md-2">
+					<input type="text" class="form-control input-sm" id="sfzh" placeholder="" maxlength="18">
+				</div>
+
+				<label class="col-md-1 control-label" >签约人员：</label>
+				<div class="col-md-3">
+					<select class="form-control input-sm" name="qyys" id="qyys">
+
+					</select>
+				</div>
+				<div class="pull-right " style="padding-right:15px">
+					<button id="btn_query" class="btn btn-default btn-sm">
+						查询
+					</button>
+					<button id="export" class="btn btn-default btn-sm" >
+						导出
+					</button>
+				</div>
+			
+
+		</div>
+		<!-- <div class="form-group">
+		<label class="col-md-2 control-label" style="width: 80px">评估结论:</label>
+		<div id="pgjl" class="col-md-10">
+		<label class="checkbox-inline"> <input type="radio"
+		name="pgjlCk" id="ckQb" value="0" checked >全部</label>
+		<label class="checkbox-inline"> <input type="radio"
+		name="pgjlCk" id="ckDpg" value="1" >待评估</label>
+		<label class="checkbox-inline"> <input type="radio"
+		name="pgjlCk" id="ckYpg" value="2" >已评估</label>
+		</div>
+		</div> -->
+
+	</form>
+	<div id="toolbar"></div>
+</div>
+
+<table id="table" class="table-container"></table>
+
+<script src="health/pages/jkgl/jkglbase.js" type="text/javascript"></script>
+<script src="health/pages/home/jkglHome.js" type="text/javascript"></script>
+<script src="frame/plugins/tableExport/tableExport.js"></script> 
+<!-- <script src="//rawgit.com/hhurz/tableExport.jquery.plugin/master/tableExport.js"></script> -->
+<!-- <script src="frame/plugins/bootstrap-table-export.js"></script>
+<script src="frame/plugins/tableExport.js"></script>
+<link rel="stylesheet" href="frame/css/bootstrap.css"> -->
+<style type="text/css">
+	.panel-green {
+		border-color: #5cb85c;
+	}
+
+	.panel-green .panel-heading {
+		border-color: #5cb85c;
+		color: #fff;
+		background-color: #5cb85c;
+	}
+
+	.panel-red {
+		border-color: #d9534f;
+	}
+
+	.panel-red .panel-heading {
+		border-color: #d9534f;
+		color: #fff;
+		background-color: #d9534f;
+	}
+
+	.page-header {
+		margin: 0 0 10px;
+		border-bottom: 1px solid #c7c7c7;
+	}
+
+	.home-panel-footer {
+		padding: 5px 5px;
+		background-color: #f5f5f5;
+		border-top: 1px solid #ddd;
+		border-bottom-right-radius: 3px;
+		border-bottom-left-radius: 3px;
+	}
+</style>
+

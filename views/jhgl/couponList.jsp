@@ -1,0 +1,1 @@
+<div style="text-align:center"><img src="images/icons/icon_yyh_coupon.jpg"/></div>

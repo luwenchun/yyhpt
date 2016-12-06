@@ -1,0 +1,51 @@
+CACHE MANIFEST
+#version 2016-10-27 12:34:14
+
+CACHE:
+
+     ../../frame/plugins/bootstrap/dist/css/bootstrap.css
+     ../../frame/plugins/select2/select2.min.css
+     ../../frame/css/AdminLTE.css
+     ../../frame/plugins/font-awesome/css/font-awesome.min.css
+     ../../frame/css/skins/skin-white.css
+     ../../frame/plugins/bootstrap-datepicker/datepicker.css
+     ../../frame/plugins/bootstrap-table/bootstrap-table.css
+     ../../frame/plugins/bootstrap-dialog/bootstrap-dialog.min.css
+     ../../frame/css/bootstrap_extra.css
+     ../../frame/plugins/iCheck/all.css
+     ../../frame/css/extra.css
+     ../../frame/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css
+     ../../frame/plugins/jquery/dist/jquery-1.9.1.js
+     ../../frame/plugins/bootstrap/dist/js/bootstrap.min.js
+     ../../frame/plugins/bootstrap-table/bootstrap-table.js
+     ../../frame/plugins/bootstrap-table/bootstrap-table-zh-CN.js
+     ../../layouts/scripts/app.js
+     ../../frame/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js
+     ../../frame/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js
+     ../../frame/scripts/wnform-extra.js
+     ../../frame/scripts/wnform-control.js
+     ../../frame/plugins/select2/select2.full.js
+     ../../frame/plugins/select2/zh-CN.js
+     ../../frame/plugins/bootstrap-dialog/bootstrap-dialog.min.js
+     ../../frame/plugins/jquery.toaster.js
+     ../../frame/plugins/bootstrap-datepicker/bootstrap-datepicker.js
+     ../../frame/plugins/jquery-validation/js/jquery.validate.js
+     ../../frame/plugins/jquery-validation/js/card.js
+     ../../frame/plugins/jquery-validation/js/additional-methods.js
+     ../../frame/plugins/jquery-validation/js/localization/messages_zh.min.js
+     ../../frame/plugins/iCheck/icheck.min.js
+     ../../frame/scripts/login/cookie.js
+     ../../frame/plugins/city-picker/css/city-picker.css
+     ../../frame/plugins/bootstrap-fileinput/bootstrap-fileinput.css
+     ../../frame/plugins/tableExport/tableExport.js
+     ../../frame/plugins/city-picker/city-picker.data.js
+     ../../frame/plugins/city-picker/city-picker.js
+     ../../frame/plugins/bootstrap-fileinput/bootstrap-fileinput-img.js
+     ../../layouts/scripts/layout.js
+     ../../layouts/css/white/detail_page.css
+     ../../layouts/img/control/img_rl.png
+
+
+
+NETWORK:
+     *
